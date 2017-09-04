@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bulma/css/bulma.css";
+
 
 $box-radius: 0;
+$card-color: red;
 
-.box {
-    border-radius: $box-radius;
-}
+// Import Bulma after
+@import "~bulma";
