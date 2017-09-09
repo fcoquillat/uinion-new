@@ -1,0 +1,60 @@
+html {
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #5634D1 400%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;   
+}
+
+/* Helpers */
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mycon {
+    position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+
+/* Font Sizes */
+h1 {
+    font-size: 1.5rem;
+}
+
+.fa {
+    font-size: 5rem;
+    color: #C2EAE9;
+}
+
+.card {
+    border-radius: 12px;
+    border-color: #C2EAE9;
+    background-color: white;    
+    box-shadow: 0 2px 3px rgba(10,10,10,.1), 0px 30px 50px -20px rgba(10, 10, 10, 0.2);
+    transition: all .1s ease-in-out;
+}
+
+.card:hover {
+    -ms-transform: scale(0.8, 0.8); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+    transform: scale(0.98,0.98); /* Standard syntax */
+    box-shadow: 0 2px 3px rgba(10,10,10,.1), 0px 30px 50px -40px rgba(10, 10, 10, 0.3);
+}
+
+.card-image {
+    padding-bottom: 22px;
+}
+
+.card-content {
+    padding: 2.5rem;
+}
+
+a {
+    color: #404040;
+}
