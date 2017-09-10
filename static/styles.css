@@ -58,3 +58,9 @@ h1 {
 a {
     color: #404040;
 }
+
+.main-menu-button, .main-menu-button:hover, .main-menu-button:focus, .main-menu-button:active {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
